@@ -1,7 +1,13 @@
 * {
     box-sizing: border-box;
     background-color: #cdd7d6; 
-    font-family: "Rubik", sans-serif;
+    font-family: "Crimson Text", sans-serif;
+}
+
+.crimson-text-regular {
+  font-family: "Crimson Text", serif;
+  font-weight: 400;
+  font-style: normal;
 }
 
 header {
