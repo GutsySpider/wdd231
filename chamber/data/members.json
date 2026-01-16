@@ -1,0 +1,67 @@
+{
+    "companys": [
+        {
+            "company_name": "company1",
+            "company_address": "123 gene Rd",
+            "company_number": "123-456-1234",
+            "company_url": "trrmir.com",
+            "image_name": "try.jpg",
+            "membership_level": 1,
+            "description": "a place that does stuff with things for places"
+        },
+        {
+        "company_name": "company1",
+        "company_address": "123 gene Rd",
+        "company_number": "123-456-1234",
+        "company_url": "trrmir.com",
+        "image_name": "try.jpg",
+        "membership_level": 1,
+        "description": "a place that does stuff with things for places"
+        },
+        {
+            "company_name": "company1",
+            "company_address": "123 gene Rd",
+            "company_number": "123-456-1234",
+            "company_url": "trrmir.com",
+            "image_name": "try.jpg",
+            "membership_level": 1,
+            "description": "a place that does stuff with things for places"
+        },
+        {
+            "company_name": "company1",
+            "company_address": "123 gene Rd",
+            "company_number": "123-456-1234",
+            "company_url": "trrmir.com",
+            "image_name": "try.jpg",
+            "membership_level": 1,
+            "description": "a place that does stuff with things for places"
+        },
+        {
+            "company_name": "company1",
+            "company_address": "123 gene Rd",
+            "company_number": "123-456-1234",
+            "company_url": "trrmir.com",
+            "image_name": "try.jpg",
+            "membership_level": 1,
+            "description": "a place that does stuff with things for places"
+        },
+        {
+            "company_name": "company1",
+            "company_address": "123 gene Rd",
+            "company_number": "123-456-1234",
+            "company_url": "trrmir.com",
+            "image_name": "try.jpg",
+            "membership_level": 1,
+            "description": "a place that does stuff with things for places"
+        },
+        {
+            "company_name": "company1",
+            "company_address": "123 gene Rd",
+            "company_number": "123-456-1234",
+            "company_url": "trrmir.com",
+            "image_name": "try.jpg",
+            "membership_level": 1,
+            "description": "a place that does stuff with things for places"
+        }
+    ]
+}
