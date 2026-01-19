@@ -86,7 +86,7 @@ header span {
 }
 
 .grid section {
-    background: rgb(219, 191, 191); 
+    background: rgb(219, 191, 191);
     padding: 1rem;
     border-radius: 8px;
     border: 2px solid #ccc;
@@ -100,7 +100,7 @@ header span {
 }
 
 .list {
-    
+
     display: flex;
     flex-direction: row;
     gap: 1rem;
@@ -134,6 +134,7 @@ header span {
     padding: 10px;
     text-align: center;
 }
+
 .menu button {
     cursor: pointer;
 }
@@ -146,6 +147,6 @@ footer {
     border-top: solid 3px #ddd;
 }
 
-.socialmedia a{
+.socialmedia a {
     text-decoration: none;
 }
