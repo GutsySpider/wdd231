@@ -1,67 +1,67 @@
 {
-    "companys": [
+    "members": [
         {
-            "company_name": "company1",
-            "company_address": "123 gene Rd",
-            "company_number": "123-456-1234",
-            "company_url": "trrmir.com",
-            "image_name": "try.jpg",
-            "membership_level": 1,
-            "description": "a place that does stuff with things for places"
+            "name": "Desert Tech Solutions",
+            "address": "482 Canyon Drive, Ridgecrest, CA",
+            "phone": "760-555-1842",
+            "website": "https://deserttechsolutions.com",
+            "image": "images/desert_tech.webp",
+            "membership": "3(Gold)",
+            "description": "IT consulting specializing in small‑business cloud migrations."
         },
         {
-        "company_name": "company1",
-        "company_address": "123 gene Rd",
-        "company_number": "123-456-1234",
-        "company_url": "trrmir.com",
-        "image_name": "try.jpg",
-        "membership_level": 1,
-        "description": "a place that does stuff with things for places"
+            "name": "High Mesa Coffee Roasters",
+            "address": "77 Sunrise Ave, Ridgecrest, CA",
+            "phone": "760-555-9921",
+            "website": "https://highmesacoffee.com",
+            "image": "images/coffee_roasters.webp",
+            "membership": "2(Silver)",
+            "description": "Local artisan roastery offering premium small‑batch beans."
         },
         {
-            "company_name": "company1",
-            "company_address": "123 gene Rd",
-            "company_number": "123-456-1234",
-            "company_url": "trrmir.com",
-            "image_name": "try.jpg",
-            "membership_level": 1,
-            "description": "a place that does stuff with things for places"
+            "name": "Sierra Vista Outfitters",
+            "address": "210 Trailhead Road, Ridgecrest, CA",
+            "phone": "760-555-4410",
+            "website": "https://sierravistaoutfitters.com",
+            "image": "images/sierra_outfitters.webp",
+            "membership": "1(Member)",
+            "description": "Outdoor gear and guided desert excursions."
         },
         {
-            "company_name": "company1",
-            "company_address": "123 gene Rd",
-            "company_number": "123-456-1234",
-            "company_url": "trrmir.com",
-            "image_name": "try.jpg",
-            "membership_level": 1,
-            "description": "a place that does stuff with things for places"
+            "name": "Ridgecrest Auto Care",
+            "address": "901 Motor Way, Ridgecrest, CA",
+            "phone": "760-555-7712",
+            "website": "https://ridgecrestautocare.com",
+            "image": "images/ridgecrest_auto.webp",
+            "membership": "3(Gold)",
+            "description": "Full‑service automotive repair and diagnostics."
         },
         {
-            "company_name": "company1",
-            "company_address": "123 gene Rd",
-            "company_number": "123-456-1234",
-            "company_url": "trrmir.com",
-            "image_name": "try.jpg",
-            "membership_level": 1,
-            "description": "a place that does stuff with things for places"
+            "name": "Sunburst Realty Group",
+            "address": "55 Horizon Blvd, Ridgecrest, CA",
+            "phone": "760-555-3308",
+            "website": "https://sunburstrealtygroup.com",
+            "image": "images/sunburst_realty.webp",
+            "membership": "2(Silver)",
+            "description": "Residential and commercial real estate experts."
         },
         {
-            "company_name": "company1",
-            "company_address": "123 gene Rd",
-            "company_number": "123-456-1234",
-            "company_url": "trrmir.com",
-            "image_name": "try.jpg",
-            "membership_level": 1,
-            "description": "a place that does stuff with things for places"
+            "name": "Coyote Canyon Grill",
+            "address": "12 Adobe Plaza, Ridgecrest, CA",
+            "phone": "760-555-8820",
+            "website": "https://coyotecanyongrill.com",
+            "image": "images/coyote_grill.webp",
+            "membership": "1(Member)",
+            "description": "Southwestern cuisine with a modern twist."
         },
         {
-            "company_name": "company1",
-            "company_address": "123 gene Rd",
-            "company_number": "123-456-1234",
-            "company_url": "trrmir.com",
-            "image_name": "try.jpg",
-            "membership_level": 1,
-            "description": "a place that does stuff with things for places"
+            "name": "Mojave Creative Studio",
+            "address": "300 Studio Lane, Ridgecrest, CA",
+            "phone": "760-555-5522",
+            "website": "https://mojavecreative.com",
+            "image": "images/mojave_studio.webp",
+            "membership": "3(Gold)",
+            "description": "Branding, web design, and digital media production."
         }
     ]
 }

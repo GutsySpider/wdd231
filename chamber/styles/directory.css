@@ -76,3 +76,76 @@ header span {
 .navigation a:hover {
     background-color: red;
 }
+
+
+.grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
+    gap: 1.5rem;
+    padding: 1rem;
+}
+
+.grid section {
+    background: rgb(219, 191, 191); 
+    padding: 1rem;
+    border-radius: 8px;
+    border: 2px solid #ccc;
+    text-align: center;
+}
+
+.grid img {
+    width: 100%;
+    height: auto;
+    border-radius: 6px;
+}
+
+.list {
+    
+    display: flex;
+    flex-direction: row;
+    gap: 1rem;
+    padding: 1rem;
+}
+
+.list section {
+    align-items: center;
+    gap: 1rem;
+    background: white;
+    padding: 1rem;
+    border-radius: 8px;
+    border: 1px solid #ccc;
+}
+
+.list img {
+    border-radius: 6px;
+    display: none;
+}
+
+.list h2 {
+    margin: 0;
+}
+
+.list p,
+.list a {
+    margin: 0.25rem 0;
+}
+
+.menu {
+    padding: 10px;
+    text-align: center;
+}
+.menu button {
+    cursor: pointer;
+}
+
+footer {
+    display: flex;
+    gap: 1rem;
+    margin: 1rem 0;
+    padding: 1rem;
+    border-top: solid 3px #ddd;
+}
+
+.socialmedia a{
+    text-decoration: none;
+}

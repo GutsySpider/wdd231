@@ -5,21 +5,27 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>WDD231 - Bowman</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Crimson+Text:ital,wght@0,400;0,600;0,700;1,400;1,600;1,700&family=Exo+2:ital@0;1&family=Lato:wght@400;900&family=Rubik&display=swap"
+        rel="stylesheet">
     <meta name="description" content="WDD 231 - Chamber of Commerce
         Michael Bowman
         Create a directory page for the chamber of commerce project.">
     <meta name="author" content="Michael Bowman">
     <meta property="og:title" content="Ridgecrest Chamber of Commerce">
     <meta property="og:description"
-        content="Discover the small town on Ridgecrest. Enjoy its rich military history. Discover how we give back to the community and support our local business.">
-    <meta property="og:image" content="https://www.apple.com/ac/structured-data/images/open_graph_logo.png?202110180743">
-    <meta property="og:url" content="https://www.apple.com/">
+        content="Discover the small town of Ridgecrest. Enjoy its rich military history. Discover how we give back to the community and support our local business.">
+    <meta property="og:image"
+        content="https://gutsyspider.github.io/wdd231/chamber/images/ridgecrest_chamber_logo.jpg">
+    <meta property="og:url" content="https://gutsyspider.github.io/wdd231/chamber/directory">
     <link rel="stylesheet" href="styles/normalize.css">
     <link rel="stylesheet" href="styles/directory.css">
     <link rel="stylesheet" href="styles/directory_larger.css">
     <script src="scripts/navigation.js" defer></script>
     <script src="scripts/date.js" defer></script>
-    <script src="scripts/view.js"></script>
+    <script src="scripts/companies.js">defer</script>
     <link rel="icon" href="images/ridgecrest_chamber_logo.jpg">
 </head>
 
@@ -31,17 +37,29 @@
     </header>
     <nav id="nav-bar" class="navigation">
         <ul>
-            <li class="current"><a href="index.html"> Home </a></li>
+            <li class="current"><a href="directory.html"> Directory </a></li>
             <li><a href="chamber.html"> Chamber </a></li>
             <li><a href="final.html"> Final </a></li>
         </ul>
-    
+
     </nav>
 
     <main>
-        <section id="companies" class="companies"></section>
+        <div class="menu">
+            <button id="grid">Grid View</button>
+            <button id="list">List View</button>
+        </div>
+        
+        <article class="grid">
+            <div id="cards" class="grid"></div>
+        </article>
     </main>
     <footer>
+        <div class="contact">
+        <p>Ridgecrest Chamber of Commerce</p>
+        <p>128 E. California Ave, Ridgecrest, CA 93555</p>
+        <p>chamber@ridgecrestchamber.com 760-375-8331</p>
+        </div>
         <nav class="socialmedia">
             <a href="https://www.linkedin.com/company/ridgecrest-chamber-of-commerce/">
                 <img src="images/linkedin-circle.svg" alt="LinkedIn" width="48" height="48">
@@ -53,18 +71,21 @@
                 <img src="images/facebook.svg" alt="Facebook" width="48" height="48">
             </a>
         </nav>
-    
+
+        <div class="lastModified">
         <p>
             <span class="copywrite">
                 &copy; <span id="year"></span> 🚁 Michael Bowman 🚁 USA
             </span>
         </p>
-    
-    
+
+
         <p>
             <span class="modified">Last Modified: <span id="lastModified"></span></span>
         </p>
+        </div>
     </footer>
-
+<script src="scripts/view.js"></script>
 </body>
+
 </html>
