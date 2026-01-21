@@ -145,6 +145,18 @@ header span {
     cursor: pointer;
 }
 
+.forecast {
+    display: flex;
+    column-gap: 20px;
+}
+
+.day1,
+.day2,
+.day3 {
+    border: 2px solid #ccc;
+    padding: 10px;
+}
+
 footer {
     display: flex;
     gap: 1rem;
