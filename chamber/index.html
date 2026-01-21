@@ -4,17 +4,17 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>WDD231 - Directory Page Michael Bowman</title>
+    <title>WDD231 - Home Page Michael Bowman</title>
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link
         href="https://fonts.googleapis.com/css2?family=Crimson+Text:ital,wght@0,400;0,600;0,700;1,400;1,600;1,700&family=Exo+2:ital@0;1&family=Lato:wght@400;900&family=Rubik&display=swap"
         rel="stylesheet">
-    <meta name="description" content="WDD 231 - Chamber of Commerce directory page
+    <meta name="description" content="WDD 231 - Chamber of Commerce Home page
         Michael Bowman
-        Create a directory page for the chamber of commerce project.">
+        Create a Home page for the chamber of commerce project.">
     <meta name="author" content="Michael Bowman">
-    <meta property="og:title" content="Ridgecrest Chamber of Commerce directory page">
+    <meta property="og:title" content="Ridgecrest Chamber of Commerce Home page">
     <meta property="og:description"
         content="Discover the small town of Ridgecrest. Enjoy its rich military history. Discover how we give back to the community and support our local business.">
     <meta property="og:image" content="https://gutsyspider.github.io/wdd231/chamber/images/ridgecrest_chamber_logo.jpg">
@@ -24,7 +24,10 @@
     <link rel="stylesheet" href="styles/directory_larger.css">
     <script src="scripts/navigation.js" defer></script>
     <script src="scripts/date.js" defer></script>
-    <script src="scripts/companies.js" defer></script>
+    <script src="scripts/weather.js" defer></script>
+    <script src="scripts/spotlights.js" defer></script>
+    
+
     <link rel="icon" href="images/ridgecrest_chamber_logo.jpg">
 </head>
 
@@ -36,23 +39,64 @@
     </header>
     <nav id="nav-bar" class="navigation">
         <ul>
-            <li><a href="index.html"> Home </a></li>
-            <li class="current"><a href="directory.html"> Directory </a></li>
-            <li><a href="chamber.html"> Chamber </a></li>
-            <li><a href="final.html"> Final </a></li>
+            <li class="current"><a href="index.html"> Home </a></li>
+            <li><a href="directory.html"> Directory </a></li>
+            <li><a href="discover.html"> Discover </a></li>
+            <li><a href="Join.html"> Join </a></li>
         </ul>
 
     </nav>
 
     <main>
-        <h1>Local Businessess</h1>
-        <div class="menu">
-            <button id="grid">Grid View</button>
-            <button id="list">List View</button>
+        <div class="hero">
+            <img src="images/hero.webp" alt="Hero Image">
+            <div class="keynote">
+                <p>Keynote Tickets</p>
+            </div>
         </div>
-        <article class="grid">
-            <div id="cards" class="grid"></div>
-        </article>
+
+        <h1>Home</h1>
+        <h3>Welcome! Join us and explore Ridgecrest.</h3>
+        <div class="events">
+            <h4>Events</h4>
+            <p>Farmers Market every Wednesday at 6pm. We have music shops games and more bring your family and have a
+                good time. </p>
+        </div>
+        <div class="current">
+            <h2>Current Weather</h2>
+            <h2 id="town"></h2>
+            <img id="graphic" src="" alt="">
+            <p id="description"></p>
+            <p id="temperature"></p>
+        </div>
+
+        <div class="forecast">
+            <h2>3-Day Forcast</h2>
+            <div class="day1">
+                <p id="date1"></p>
+                <img id="graphic1" src="" alt="">
+                <p id="description1"></p>
+                <p id="temperature1"></p>
+            </div>
+            <div class="day2">
+                <p id="date2"></p>
+                <img id="graphic2" src="" alt="">
+                <p id="description2"></p>
+                <p id="temperature2"></p>
+            </div>
+            <div class="day3">
+                <p id="date3"></p>
+                <img id="graphic3" src="" alt="">
+                <p id="description3"></p>
+                <p id="temperature3"></p>
+            </div>
+        </div>
+
+        <section class="spotlights">
+            <h2>Member Spotlights</h2>
+            <div id="spotlight-container"></div>
+        </section>
+
     </main>
     <footer>
         <div class="contact">
@@ -85,7 +129,6 @@
             </p>
         </div>
     </footer>
-    <script src="scripts/view.js" defer></script>
 </body>
 
 </html>
