@@ -1,6 +1,7 @@
 const spotlightContainer = document.querySelector('#spotlight-container');
 const membersURL = 'data/members.json';
 
+
 async function getSpotlights() {
     try {
         const response = await fetch(membersURL);
@@ -30,17 +31,19 @@ function displaySpotlights(members) {
     selected.forEach(member => {
         const card = document.createElement('section');
         card.classList.add('spotlight-card');
+        const level = parseInt(member.membership);
+        const levelClass = level === 3 ? 'gold' : 'silver';
+        const levelName = level === 3 ? 'Gold Member' : 'Silver Member';
 
         card.innerHTML = `
-            <img src="${member.image}" alt="${member.name} logo" loading="lazy">
-            <h3>${member.name}</h3>
-            <p><strong>Phone:</strong> ${member.phone}</p>
-            <p><strong>Address:</strong> ${member.address}</p>
-            <p><a href="${member.website}" target="_blank">Visit Website</a></p>
-            <p class="level ${member.membership === 3 ? 'gold' : 'silver'}">
-                ${member.membership === 3 ? 'Gold Member' : 'Silver Member'}
-            </p>
-        `;
+    <img src="${member.image}" alt="${member.name} logo" loading="lazy">
+    <h3>${member.name}</h3>
+    <p><strong>Phone:</strong> ${member.phone}</p>
+    <p><strong>Address:</strong> ${member.address}</p>
+    <p><a href="${member.website}" target="_blank">Visit Website</a></p>
+    <p class="level ${levelClass}">${levelName}</p>
+`;
+
 
         spotlightContainer.appendChild(card);
     });

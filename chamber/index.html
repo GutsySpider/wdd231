@@ -26,7 +26,7 @@
     <script src="scripts/date.js" defer></script>
     <script src="scripts/weather.js" defer></script>
     <script src="scripts/spotlights.js" defer></script>
-    
+
 
     <link rel="icon" href="images/ridgecrest_chamber_logo.jpg">
 </head>
@@ -42,7 +42,7 @@
             <li class="current"><a href="index.html"> Home </a></li>
             <li><a href="directory.html"> Directory </a></li>
             <li><a href="discover.html"> Discover </a></li>
-            <li><a href="Join.html"> Join </a></li>
+            <li><a href="join.html"> Join </a></li>
         </ul>
 
     </nav>
@@ -50,52 +50,55 @@
     <main>
         <div class="hero">
             <img src="images/hero.webp" alt="Hero Image">
-            <div class="keynote">
-                <p>Keynote Tickets</p>
-            </div>
         </div>
+        <div class="homeinfo">
+            <h1>Home</h1>
+            <h3>Welcome! Join us and explore Ridgecrest.</h3>
+            <div class="events">
+                <h4>Events</h4>
+                <p>Farmers Market every Wednesday at 6pm. We have music shops games and more bring your family and have
+                    a
+                    good time. </p>
+            </div>
+            <div class="current">
+                <h2>Current Weather</h2>
+                <h2 id="town"></h2>
+                <div class="currentinfo">
+                    <h2>Today</h2>
+                    <img id="graphic" src="" alt="">
+                    <p id="description"></p>
+                    <p id="temperature"></p>
+                </div>
+            </div>
+            <div class="forspot">
+                <h2>3-Day Forcast</h2>
+                <div class="forecast">
+                    <div class="day1">
+                        <p id="date1"></p>
+                        <img id="graphic1" src="" alt="">
+                        <p id="description1"></p>
+                        <p id="temperature1"></p>
+                    </div>
+                    <div class="day2">
+                        <p id="date2"></p>
+                        <img id="graphic2" src="" alt="">
+                        <p id="description2"></p>
+                        <p id="temperature2"></p>
+                    </div>
+                    <div class="day3">
+                        <p id="date3"></p>
+                        <img id="graphic3" src="" alt="">
+                        <p id="description3"></p>
+                        <p id="temperature3"></p>
+                    </div>
+                </div>
 
-        <h1>Home</h1>
-        <h3>Welcome! Join us and explore Ridgecrest.</h3>
-        <div class="events">
-            <h4>Events</h4>
-            <p>Farmers Market every Wednesday at 6pm. We have music shops games and more bring your family and have a
-                good time. </p>
-        </div>
-        <div class="current">
-            <h2>Current Weather</h2>
-            <h2 id="town"></h2>
-            <img id="graphic" src="" alt="">
-            <p id="description"></p>
-            <p id="temperature"></p>
-        </div>
-
-        <h2>3-Day Forcast</h2>
-        <div class="forecast">
-            <div class="day1">
-                <p id="date1"></p>
-                <img id="graphic1" src="" alt="">
-                <p id="description1"></p>
-                <p id="temperature1"></p>
-            </div>
-            <div class="day2">
-                <p id="date2"></p>
-                <img id="graphic2" src="" alt="">
-                <p id="description2"></p>
-                <p id="temperature2"></p>
-            </div>
-            <div class="day3">
-                <p id="date3"></p>
-                <img id="graphic3" src="" alt="">
-                <p id="description3"></p>
-                <p id="temperature3"></p>
+                <section class="spotlights">
+                    <h2>Member Spotlights</h2>
+                    <div id="spotlight-container"></div>
+                </section>
             </div>
         </div>
-
-        <section class="spotlights">
-            <h2>Member Spotlights</h2>
-            <div id="spotlight-container"></div>
-        </section>
 
     </main>
     <footer>

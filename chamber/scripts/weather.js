@@ -12,6 +12,7 @@ const captionDesc2 = document.querySelector('#description2');
 const temp3 = document.querySelector('#temperature3');
 const weatherIcon3 = document.querySelector('#graphic3');
 const captionDesc3 = document.querySelector('#description3');
+const date = document.querySelector('#date');
 const date1 = document.querySelector('#date1');
 const date2 = document.querySelector('#date2');
 const date3 = document.querySelector('#date3');
@@ -20,8 +21,8 @@ const myKey = "bae20e7f77623889026de14be4b6011a"
 const myLat = "35.621042820088945"
 const myLong = "-117.6730495255976"
 
-const myURL = `//api.openweathermap.org/data/2.5/weather?lat=${myLat}&lon=${myLong}&appid=${myKey}&units=imperial`
-const myForcast = `//api.openweathermap.org/data/2.5/forecast?lat=${myLat}&lon=${myLong}&appid=${myKey}&units=imperial`
+const myURL = `https://api.openweathermap.org/data/2.5/weather?lat=${myLat}&lon=${myLong}&appid=${myKey}&units=imperial`
+const myForcast = `https://api.openweathermap.org/data/2.5/forecast?lat=${myLat}&lon=${myLong}&appid=${myKey}&units=imperial`
 
 async function apiFetchCurrent() {
   try {

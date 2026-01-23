@@ -141,8 +141,14 @@ header span {
     text-align: center;
 }
 
+
+
 .menu button {
     cursor: pointer;
+}
+
+.homeinfo {
+    text-align: center;
 }
 
 .forecast {
@@ -155,6 +161,16 @@ header span {
 .day3 {
     border: 2px solid #ccc;
     padding: 10px;
+    width: 250px;
+    height: 250px;
+    text-align: center;
+}
+
+
+
+#spotlight-container {
+    display: flex;
+    column-gap: 20px;
 }
 
 footer {
