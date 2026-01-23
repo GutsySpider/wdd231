@@ -154,6 +154,7 @@ header span {
 .forecast {
     display: flex;
     column-gap: 20px;
+    
 }
 
 .day1,
@@ -165,7 +166,6 @@ header span {
     height: 250px;
     text-align: center;
 }
-
 
 
 #spotlight-container {
