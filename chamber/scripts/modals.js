@@ -18,6 +18,10 @@ openButton3.addEventListener("click", () => {
     dialogBox.showModal();
     dialogBoxText.innerHTML = `One Banana contains 105 calories`
 });
+openButton4.addEventListener("click", () => {
+    dialogBox.showModal();
+    dialogBoxText.innerHTML = `One Banana contains 105 calories`
+});
 
 // "Close" button closes the dialog
 closeButton.addEventListener("click", () => {
