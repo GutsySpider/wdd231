@@ -184,3 +184,59 @@ footer {
 .socialmedia a {
     text-decoration: none;
 }
+/* ----------------------------- JOIN PAGE------------------------*/
+.joinformat {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
+    gap: 1.5rem;
+    padding: 1rem;
+}
+
+.memberships{
+    text-align: center;
+}
+/* ----------------------------- FORM ----------------------------- */
+
+.joinchamber fieldset {
+    border: none;
+    padding: .5rem 2%;
+}
+
+.joinchamber legend {
+    color: maroon;
+    padding: 0 .5rem;
+}
+
+.joinchamber label {
+    display: block;
+    padding-bottom: 2rem;
+    color: black;
+    font-size: 1.2rem;
+}
+
+.joinchamber input[type="text"],
+.joinchamber input[type="date"],
+.joinchamber input[type="email"],
+.joinchamber input[type="tel"],
+.joinchamber select,
+.joinchamber textarea {
+    background-color: #eee;
+    display: block;
+    border: solid 2px rgb(219, 191, 191);
+    border-radius: 6px;
+    padding: .75rem;
+    width: 100%;
+    max-width: 400px;
+    appearance: none;
+}
+
+.joinchamber input[type="submit"] {
+    border: none;
+    background-image: linear-gradient(red, darkred);
+    color: #fff;
+    border-radius: 6px;
+    max-width: 400px;
+    margin: -1rem 2% 2rem 2%;
+    box-shadow: 1px 1px 4px #999;
+}
+

@@ -22,9 +22,7 @@
     <link rel="stylesheet" href="styles/normalize.css">
     <link rel="stylesheet" href="styles/directory.css">
     <link rel="stylesheet" href="styles/directory_larger.css">
-    <!-- <script src="scripts/navigation.js" defer></script> -->
     <script src="scripts/date.js" defer></script>
-    <!-- <script src="scripts/companies.js" defer></script> -->
     <script src="scripts/join.js" defer></script>
     <script src="scripts/modals.js" defer></script>
     <link rel="icon" href="images/ridgecrest_chamber_logo.jpg">
@@ -48,64 +46,66 @@
 
     <main>
         <h1>Join Us</h1>
+        <div class="joinformat">
 
-        <form method="GET" action="thankyou.html" class="Joinchamber">
+            <form method="GET" action="thankyou.html" class="joinchamber">
 
-            <label>First Name <input type="text" name="first" required autocomplete="first-name"
-                    title="Your First Name"></label>
+                <label>First Name <input type="text" name="first" required autocomplete="given-name"
+                        title="Your First Name"></label>
 
-            <label>Last Name <input type="text" name="last" required autocomplete="last-name"
-                    title="Your Last Name"></label>
+                <label>Last Name <input type="text" name="last" required autocomplete="family-name"
+                        title="Your Last Name"></label>
 
-            <label>Organizational Title <input type="text" name="title" autocomplete="organization-title"
-                    title="Your Organizational Title" pattern="^[A-Za-z\- ]{7,}$"></label>
+                <label>Organizational Title <input type="text" name="title" autocomplete="organization-title"
+                        title="Your Organizational Title" pattern="^[A-Za-z\- ]{7,}$"></label>
 
-            <label>Email <input type="email" name="email" required placeholder="john89@gmail.com" title="Your Email"
-                    autocomplete="email"></label>
+                <label>Email <input type="email" name="email" required placeholder="john89@gmail.com" title="Your Email"
+                        autocomplete="email"></label>
 
-            <label>Cell Phone <input type="tel" name="phone" autocomplete="tel" title="A Phone Number with dashes"
-                    placeholder="987-555-1234"></label>
+                <label>Cell Phone <input type="tel" name="phone" autocomplete="tel" title="A Phone Number with dashes"
+                        placeholder="987-555-1234"></label>
 
-            <label>Organization Name <input type="text" name="organization" required autocomplete="organization"
-                    title="Your Organization Name"></label>
+                <label>Organization Name <input type="text" name="organization" required autocomplete="organization"
+                        title="Your Organization Name"></label>
 
-            <label>Select Membership Level
-                <select name="membership">
-                    <option value="" disabled selected>Select</option>
-                    <option value="">Non Profit Membership</option>
-                    <option value="Payson">Bronze Membership</option>
-                    <option value="Orem">Silver Membership</option>
-                    <option value="Provo City Center">Gold Membership</option>
-                </select>
-            </label>
-                    
-            <label>Organization Description<textarea name="description" rows="5" cols="45"></textarea></label>
+                <label>Select Membership Level
+                    <select name="membership">
+                        <option value="" disabled selected>Select</option>
+                        <option value="">Non Profit Membership</option>
+                        <option value="Payson">Bronze Membership</option>
+                        <option value="Orem">Silver Membership</option>
+                        <option value="Provo City Center">Gold Membership</option>
+                    </select>
+                </label>
 
-            <label><input type="hidden" name="hidden" required id="hidden"></label>
+                <label>Organization Description<textarea name="description" rows="5" cols="45"></textarea></label>
 
-            <input type="submit" value="Add Your Organization">
-        </form>
+                <label><input type="hidden" name="hidden" id="hidden"></label>
 
-        <div class="memberships">
-            <h1>Membership Levels</h1>
+                <input type="submit" value="Add Your Organization">
+            </form>
 
-            <h2>Non Profit Membership</h2>
-            <button id="openButton1">More Information</button>
+            <div class="memberships">
+                <h1>Membership Levels</h1>
 
-            <h2>Membership</h2>
-            <button id="openButton2">More Information</button>
+                <h2>Non Profit Membership</h2>
+                <button id="openButton1">More Information</button>
 
-            <h2>Silver Membership</h2>
-            <button id="openButton3">More Information</button>
+                <h2>Membership</h2>
+                <button id="openButton2">More Information</button>
 
-            <h2>Gold Membership</h2>
-            <button id="openButton4">More Information</button>
+                <h2>Silver Membership</h2>
+                <button id="openButton3">More Information</button>
 
-            <dialog id="dialogBox">
-                <div></div>
-                <button id="closeButton">Close</button>
-            </dialog>
+                <h2>Gold Membership</h2>
+                <button id="openButton4">More Information</button>
 
+                <dialog id="dialogBox">
+                    <div></div>
+                    <button id="closeButton">Close</button>
+                </dialog>
+
+            </div>
         </div>
     </main>
     <footer>
