@@ -23,7 +23,6 @@
     <link rel="stylesheet" href="styles/directory.css">
     <link rel="stylesheet" href="styles/directory_larger.css">
     <script src="scripts/date.js" defer></script>
-    <script src="scripts/join.js" defer></script>
     <script src="scripts/modals.js" defer></script>
     <link rel="icon" href="images/ridgecrest_chamber_logo.jpg">
 </head>
@@ -62,7 +61,7 @@
                 <label>Email <input type="email" name="email" required placeholder="john89@gmail.com" title="Your Email"
                         autocomplete="email"></label>
 
-                <label>Cell Phone <input type="tel" name="phone" autocomplete="tel" title="A Phone Number with dashes"
+                <label>Cell Phone <input type="tel" name="phone" required autocomplete="tel" title="A Phone Number with dashes"
                         placeholder="987-555-1234"></label>
 
                 <label>Organization Name <input type="text" name="organization" required autocomplete="organization"
@@ -78,7 +77,7 @@
                     </select>
                 </label>
 
-                <label>Organization Description<textarea name="description" rows="5" cols="45"></textarea></label>
+                <label>Organization Description<textarea name="description" rows="5" cols="45" title="Description"></textarea></label>
 
                 <label><input type="hidden" name="hidden" id="hidden"></label>
 

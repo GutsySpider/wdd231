@@ -249,7 +249,7 @@ footer {
 }
 
 #closeButton {
-    background-color: brown;
+    background-color: rgb(241, 187, 187);
 }
 ::backdrop {
     background-color: rgb(219, 191, 191, 0.5)
