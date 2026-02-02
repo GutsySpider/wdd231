@@ -194,6 +194,7 @@ footer {
 
 .memberships{
     text-align: center;
+    font-size: 1.2rem;
 }
 /* ----------------------------- FORM ----------------------------- */
 
@@ -240,3 +241,60 @@ footer {
     box-shadow: 1px 1px 4px #999;
 }
 
+/* -----------------------MODAL-------------------------- */
+#openButton1, #openButton2, #openButton3, #openButton4 {
+    color: rgb(233, 220, 209);
+    border-radius: 10px;
+    background-color: rgb(0, 46, 0);
+}
+
+#closeButton {
+    background-color: brown;
+}
+::backdrop {
+    background-color: rgb(219, 191, 191, 0.5)
+}
+
+/* -----------------------MEMBERSHIP----------------------- */
+
+.nonProfit, .bronze, .silver, .gold {
+    border: solid 2px rgb(219, 191, 191);
+    border-radius: 10px;
+    padding: 10px;
+    margin: 1rem;
+    background-color: silver;
+}
+h3 {
+    background: none;
+}
+
+/* -------------ANIMATION----------------- */
+.memberships>div {
+    opacity: 0;
+    transform: translateY(25px);
+    animation: slideUp 0.6s ease-out forwards;
+}
+
+.nonProfit {
+    animation-delay: 0.1s;
+}
+
+.bronze {
+    animation-delay: 0.2s;
+}
+
+.silver {
+    animation-delay: 0.3s;
+}
+
+.gold {
+    animation-delay: 0.4s;
+}
+
+/* Slide-up keyframes */
+@keyframes slideUp {
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
