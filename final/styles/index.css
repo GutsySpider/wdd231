@@ -1,0 +1,112 @@
+* {
+    box-sizing: border-box;
+}
+
+.crimson-text-regular {
+    font-family: "Crimson Text", serif;
+    font-style: normal;
+}
+
+body{
+    background-color: black;
+    color: gold;
+    padding: 1rem;
+}
+header {
+    display: grid;
+    grid-template-columns: 24px auto 44px;
+    padding: 5px 0 5px 10px;
+    align-items: end;
+    border-bottom: solid 3px rgba(255, 217, 0, 0.377);
+    column-gap: 8px;
+}
+
+header img {
+    display: block;
+    width: 100%;
+    height: auto;
+}
+
+header span {
+    font-size: 1.2rem;
+}
+
+
+.hamburger {
+    background: none;
+    border: none;
+    color: gold;
+    cursor: pointer;
+}
+
+.hamburger::before {
+    content: "\2630";
+    font-size: 2rem;
+}
+
+.hamburger.show::before {
+    content: "\00D7";
+    font-size: 2rem;
+}
+
+.navigation {
+    display: none;
+    
+}
+
+.navigation.show {
+    display: block;
+}
+
+.navigation ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+.navigation a {
+    display: block;
+    padding: .85rem 10px;
+    color: lime;
+    text-decoration: none;
+}
+
+.navigation li.current {
+    background-color: rgb(54, 48, 6);
+}
+
+.navigation a:hover {
+    background-color: olive;
+}
+
+.hero img {
+    width: 100%;
+    height: 100%;
+}
+
+.mobile, .mobile_nav, .desktop {
+    width: 100%;
+    height: 100%;
+}
+
+
+h2 {
+    color: lime;
+}
+
+footer {
+    display: flex;
+    gap: 1rem;
+    margin: 1rem 0;
+    padding: 1rem;
+    border-top: solid 3px #ddd;
+}
+
+.socialmedia a {
+    text-decoration: none;
+}
+
+.socialmedia img {
+    background-color: olive;
+    border-radius: 10px;
+}

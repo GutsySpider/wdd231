@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>WDD231 - Gutsy's Spider Web</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Crimson+Text:ital,wght@0,400;0,600;0,700;1,400;1,600;1,700&family=Exo+2:ital@0;1&family=Lato:wght@400;900&family=Rubik&display=swap"
+        rel="stylesheet">
+    <meta name="description" content="WDD 231 - Final project - Twitch community website homepage where users will see streamer info and recent content.
+        Michael Bowman
+        Create a Home page for my final assignment - Twitch community named Gutsy's Spider Web.">
+    <meta name="author" content="Michael Bowman">
+    <meta property="og:title" content="Gutsy's Spider Web">
+    <meta property="og:description"
+        content="Discover the small town of Ridgecrest. Enjoy its rich military history. Discover how we give back to the community and support our local business.">
+    <meta property="og:image" content="https://gutsyspider.github.io/wdd231/final/images/favicon.ico">
+    <meta property="og:url" content="https://gutsyspider.github.io/wdd231/final/index">
+    <link rel="stylesheet" href="styles/normalize.css">
+    <link rel="stylesheet" href="styles/index.css">
+    <link rel="stylesheet" href="styles/index_larger.css">
+    <script src="scripts/date.js" defer></script>
+    <script src="scripts/navigation.js" defer></script>
+
+
+
+    <link rel="icon" href="images/favicon.ico">
+</head>
+
+<body>
+    <header>
+        <img src="images/favicon.ico" alt="Site Logo" width="24" height="24">
+        <span>Gutsy's Spider Web</span>
+        <button id="hamburger" title="hamburger" class="hamburger"></button>
+    </header>
+    <nav id="nav-bar" class="navigation">
+        <ul>
+            <li class="current"><a href="index.html"> Home </a></li>
+            <li><a href="leaderboard.html"> Leaderboard </a></li>
+            <li><a href="join.html"> Join </a></li>
+        </ul>
+
+    </nav>
+
+    <main>
+        <h2>Site Name: Gutsy's Spider Web</h2>
+        <h2>https://gutsysspiderweb.com</h2>
+        <p>This is the company Name of my streaming community. I wanted to develope and area that will showcase what my community supports. I want to showcase the content that I create. I also want to give an opportunity for others to join in the fun. </p>
+
+        <h2> Site Purpose</h2>
+        <p>I have been gaming my whole life. Through gaming I have kept in touch with family, found freindship and made memories. This site is to give people a central place where they can see what Gutsy's Spider Web is about. It will showcase community members leaderboards, game highlights and frequently played games. It will also be a location where they can request to join the community. This gives one place to advertise all of our imformation to the masses. </p>
+
+        <h2>Scenarios</h2>
+        <p>How can I Join?</p>
+        <p>What Type of content do you stream?</p>
+        <p>How does your community communicate?</p>
+
+        <h2>Color Schema</h2>
+        <p>All backgrounds will be black.<br>
+            The Navigation and headings will be Lime. 
+            <br>The navigation will have a current highlight which is olive drab green which also has a hover feature that is olive.<br>
+            All body and footer text will be gold.<br>
+            footer social media will be olve. 
+        </p>
+        <h2>Typography</h2>
+        <p>Font for all text will be font-family: Crimson Text, serif weights will be adjusted depending on heading and
+            paragraph content.</p>
+        <h2>Wireframes</h2>
+            <h3>Mobile</h3>
+        <p><img src="images/mobile_wireframe.jpg" alt="mobile" class="mobile"></p>
+        <p><img src="images/mobile_nav_wireframe.jpg" alt="mobile_nav" class="mobile_nav"></p>
+        <h3>Desktop</h3>
+        <p><img src="images/desktop_wireframe.jpg" alt="desktop" class="desktop"></p>
+
+    </main>
+    <footer>
+        <div class="contact">
+            <p>Gutsy's Spider Web</p>
+            <p>123 E Spider Lane, Trouble, CA 93555</p>
+            <p>GutsySays@Webs.com 426-277-4337</p>
+        </div>
+        <nav class="socialmedia">
+            <a href="https://www.instagram.com/gutsyspidertwitch/">
+                <img src="images/instagram-circle.svg" alt="Instagram" width="48" height="48">
+            </a>
+            <a href="https://www.twitch.tv/gutsyspider">
+                <img src="images/twitch-circle.svg" alt="Twitch" width="48" height="48">
+            </a>
+            <a href="https://www.youtube.com/@gutsyspider">
+                <img src="images/youtube-circle.svg" alt="YouTube" width="48" height="48">
+            </a>
+            <a href="https://x.com/GutsySpider1">
+                <img src="images/twitter-alt-circle.svg" alt="X" width="48" height="48">
+            </a>
+            <a href="https://www.facebook.com/GutsySpider/">
+                <img src="images/facebook.svg" alt="Facebook" width="48" height="48">
+            </a>
+        </nav>
+
+        <div class="lastModified">
+            <p>
+                <span class="copywrite">
+                    &copy; <span id="year"></span> 🚁 Michael Bowman 🚁 USA
+                </span>
+            </p>
+
+
+            <p>
+                <span class="modified">Last Modified: <span id="lastModified"></span></span>
+            </p>
+        </div>
+    </footer>
+</body>
+
+</html>
