@@ -1,44 +1,9 @@
-@media only screen and (min-width: 38rem) {
-
-    header,
-    main,
-    nav,
-    footer {
-        max-width: 900px;
-        margin: 0 auto;
-    }
+@media only screen and (min-width: 64rem) {
 
 
-    header {
-        grid-template-columns: 24px auto;
-    }
-
-    .hamburger {
-        display: none;
-    }
-
-    .navigation {
-        display: block;
-        border-bottom: solid 1px #eee;
-    }
-
-    .navigation ul {
-        display: flex;
-
-    }
-
-    .navigation li {
-        color: #25270a;
-        text-decoration: none;
-
-    }
-
-    .navigation a {
-        border: none;
-    }
-
-    .info {
-        display: flex;
+    #discover {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
     }
 
 }

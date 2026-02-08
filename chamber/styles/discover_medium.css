@@ -1,0 +1,50 @@
+@media only screen and (min-width: 38rem) {
+
+
+    .hamburger {
+        display: none;
+    }
+
+    .navigation {
+        display: block;
+        border-bottom: solid 1px #eee;
+    }
+
+    .navigation ul {
+        display: flex;
+
+    }
+
+    .navigation li {
+        color: #25270a;
+        text-decoration: none;
+
+    }
+
+    .navigation a {
+        border: none;
+    }
+
+    .info {
+        display: flex;
+    }
+        
+    #discover div {
+        grid-template-areas:
+        "photo name"
+        "photo description"
+        "photo location";
+    }
+    
+    #discover div img {
+        width: 300px;
+    }
+    
+    #discover div img:hover {
+        border-bottom-left-radius: 100px;
+        border-top-left-radius: 100px;
+        border-style: ridge;
+        opacity: 80%;
+    }
+
+}

@@ -2,6 +2,7 @@
     box-sizing: border-box;
     background-color: #cdd7d6;
     font-family: "Crimson Text", sans-serif;
+    
 }
 
 .crimson-text-regular {
@@ -297,4 +298,71 @@ h3 {
         opacity: 1;
         transform: translateY(0);
     }
+}
+
+/* --------------------------- DISCOVER PAGE --------------------------*/
+
+#discover div {
+    margin: 1rem;
+    padding: 10px;
+    border: solid 1px gray;
+    border-radius: 10px;
+    background-color: rgb(241, 187, 187);
+    overflow: hidden;
+    display: grid;
+    grid-template-areas: 
+    "name"
+    "photo"
+    "description"
+    "location";
+}
+#discover h2, #discover p, #discover address {
+    background-color: rgb(241, 187, 187);
+}
+
+#discover div img {
+    margin: 1rem;
+    width: 100%;
+    grid-area: photo;
+}
+ 
+#discover div h2 {
+    margin: 1rem;
+    grid-area: name;
+}
+
+#discover div p {
+    margin: 1rem;
+    grid-area: description;
+}
+
+#discover div address {
+    margin: 1rem;
+    grid-area: location;
+}
+
+.moreButton {
+    margin: 1rem;
+    margin-top: 10px;
+    padding: 10px;
+    background: #032842;
+    color: white;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+    font-weight: bold;
+}
+
+.moreButton:hover {
+    background: #005fa3;
+}
+
+#visitMessage  {
+    margin: 1rem;
+    margin-top: 10px;
+    padding: 10px;
+    background: gold;
+    color: black;
+    border-radius: 10px;
+    text-align: center;
 }
