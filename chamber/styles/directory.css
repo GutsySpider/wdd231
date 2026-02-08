@@ -180,6 +180,7 @@ footer {
     margin: 1rem 0;
     padding: 1rem;
     border-top: solid 3px #ddd;
+    justify-content: center;
 }
 
 .socialmedia a {

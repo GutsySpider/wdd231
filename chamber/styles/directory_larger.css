@@ -1,5 +1,31 @@
 @media only screen and (min-width: 64rem) {
-
+    .hamburger {
+            display: none;
+        }
+    
+        .navigation {
+            display: block;
+            border-bottom: solid 1px #eee;
+        }
+    
+        .navigation ul {
+            display: flex;
+    
+        }
+    
+        .navigation li {
+            color: #25270a;
+            text-decoration: none;
+    
+        }
+    
+        .navigation a {
+            border: none;
+        }
+    
+        .info {
+            display: flex;
+        }
 
     #discover {
         display: grid;
