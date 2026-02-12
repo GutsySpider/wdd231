@@ -92,6 +92,49 @@ header span {
     height: 100%;
 }
 
+/* ------------------- FORM ------------------------- */
+
+.joinweb fieldset {
+    border: none;
+    padding: .5rem 2%;
+}
+
+.joinweb legend {
+    color: maroon;
+    padding: 0 .5rem;
+}
+
+.joinweb label {
+    display: block;
+    padding-bottom: 2rem;
+    font-size: 1.2rem;
+}
+
+.joinweb input[type="text"],
+.joinweb input[type="date"],
+.joinweb input[type="email"],
+.joinweb input[type="tel"],
+.joinweb select,
+.joinweb textarea {
+    background-color: #eee;
+    display: block;
+    border: solid 2px rgb(219, 191, 191);
+    border-radius: 6px;
+    padding: .75rem;
+    width: 100%;
+    max-width: 400px;
+    appearance: none;
+}
+
+.joinweb input[type="submit"] {
+    border: none;
+    background-image: linear-gradient(red, darkred);
+    color: #fff;
+    border-radius: 6px;
+    max-width: 400px;
+    margin: -1rem 2% 2rem 2%;
+    box-shadow: 1px 1px 4px #999;
+}
 
 h2 {
     color: lime;

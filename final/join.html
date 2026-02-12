@@ -24,7 +24,10 @@
     <link rel="stylesheet" href="styles/index_larger.css">
     <script src="scripts/date.js" defer></script>
     <script src="scripts/navigation.js" defer></script>
-    
+    <script src="scripts/other.js" defer></script>
+    <script src="scripts/submitted.js" defer></script>
+
+
 
 
     <link rel="icon" href="images/favicon.ico">
@@ -38,17 +41,61 @@
     </header>
     <nav id="nav-bar" class="navigation">
         <ul>
-            <li class="current"><a href="index.html"> Home </a></li>
+            <li><a href="index.html"> Home </a></li>
             <li><a href="leaderboard.html"> Leaderboard </a></li>
-            <li><a href="join.html"> Join </a></li>
+            <li class="current"><a href="join.html"> Join </a></li>
         </ul>
 
     </nav>
 
     <main>
-    <div class="hero">
-        <img src="images/gutsyspider_banner.jpeg" alt="Hero Image">
-    </div>
+        <div class="hero">
+            <img src="images/gutsyspider_banner.jpeg" alt="Hero Image">
+        </div>
+
+        <h1>Join Us</h1>
+        <div class="joinformat">
+            <form method="GET" action="thanks.html" class="joinweb">
+                <h2>Member Application Form</h2>
+
+                <label>First Name <input type="text" name="first" required autocomplete="given-name"
+                        title="Your First Name"></label>
+
+                <label>Last Name <input type="text" name="last" required autocomplete="family-name"
+                        title="Your Last Name"></label>
+
+                <label>Gamertag <input type="text" name="gamertag" required autocomplete="gamertag"
+                        title="Your Gamertag"></label>
+
+                <label>Email <input type="email" name="email" required placeholder="john89@gmail.com" title="Your Email"
+                        autocomplete="email"></label>
+
+                <label>Cell Phone <input type="tel" name="phone" required autocomplete="tel"
+                        title="A Phone Number with dashes" placeholder="987-555-1234"></label>
+
+
+                <label>Select Gaming Platform
+                    <select name="platform" id="reason" onchange="showOtherInput()">
+                        <option value="" disabled selected>Select</option>
+                        <option value="xbox">Xbox</option>
+                        <option value="playstation">Playstation</option>
+                        <option value="pc">PC</option>
+                        <option value="other">Other (please specify)</option>
+                    </select>
+
+                    <div id="other-description-container" style="display: none; margin-top: 10px;">
+                        <label for="other-description">Please specify:</label>
+                        <input type="text" id="other-description" name="other_description">
+                    </div>
+                </label>
+
+                <label>Gaming Experiance<textarea name="description" rows="5" cols="45" title="Description"
+                        placeholder="Enter games you are interested in."></textarea></label>
+
+                <label><input type="hidden" name="hidden" id="hidden"></label>
+
+                <input type="submit" value="Join The Web">
+            </form>
 
     </main>
     <footer>
