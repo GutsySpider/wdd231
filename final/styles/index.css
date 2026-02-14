@@ -75,7 +75,7 @@ header span {
 }
 
 .navigation li.current {
-    background-color: rgb(54, 48, 6);
+    border: solid 2px greenyellow;
 }
 
 .navigation a:hover {
@@ -108,6 +108,10 @@ header span {
     display: block;
     padding-bottom: 2rem;
     font-size: 1.2rem;
+}
+
+.select#reason {
+    background-color: black;
 }
 
 .joinweb input[type="text"],
