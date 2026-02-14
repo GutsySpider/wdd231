@@ -16,7 +16,7 @@
     <meta name="author" content="Michael Bowman">
     <meta property="og:title" content="Gutsy's Spider Web">
     <meta property="og:description"
-        content="Welcome to Gutsy's Spider Web. Gaming is a way for like minded people to connect and help eachother. Our community is connected to multiple genres of video games. We are here to connect people with eachother to enhance their gaming experiance. This is done by creating guilds or rostering competative teams and more inside individual games. We are proud of our members and look forward to growing this community.">
+        content="Welcome to Gutsy's Spider Web. Gaming is a way for like minded people to connect and help eachother. Our community is connected to multiple genres of video games.">
     <meta property="og:image" content="https://gutsyspider.github.io/wdd231/final/images/favicon.ico">
     <meta property="og:url" content="https://gutsyspider.github.io/wdd231/final/index">
     <link rel="stylesheet" href="styles/normalize.css">
@@ -24,15 +24,16 @@
     <link rel="stylesheet" href="styles/index_larger.css">
     <script src="scripts/date.js" defer></script>
     <script src="scripts/navigation.js" defer></script>
-    
+    <script src="scripts/highlight.js" defer></script>
 
 
-    <link rel="icon" href="images/favicon.ico">
+
+    <link rel="icon" href="images/spider-black-widow.svg">
 </head>
 
 <body>
     <header>
-        <img src="images/favicon.ico" alt="Site Logo" width="24" height="24">
+        <img src="images/spider-black-widow.svg" alt="Site Logo" width="24" height="24">
         <span>Gutsy's Spider Web</span>
         <button id="hamburger" title="hamburger" class="hamburger"></button>
     </header>
@@ -46,9 +47,39 @@
     </nav>
 
     <main>
-    <div class="hero">
-        <img src="images/gutsyspider_banner.jpeg" alt="Hero Image">
-    </div>
+        <div class="hero">
+            <img src="images/gutsyspider_banner.webp" alt="Hero Image">
+        </div>
+
+        <h1>Welcome to The Web</h1>
+
+        <p>Gaming is a way for like minded people to connect and help eachother. Our community is connected to multiple
+            genres of video games. We are here to connect people with eachother to enhance their gaming experiance. This
+            is done by creating guilds or rostering competative teams and more inside individual games. We are proud of
+            our members and look forward to growing this community.</p>
+
+        <h2>Recently Played Games</h2>
+
+        <div class="highlights">
+            <h2>Highlights</h2>
+            <div class="hlight1">
+                <h3>Non-Profit Membership</h3>
+                <button id="openButton1">More Information</button>
+            </div>
+            <div class="hlight2">
+                <h3>Non-Profit Membership</h3>
+                <button id="openButton2">More Information</button>
+            </div>
+            <div class="hlight3">
+                <h3>Non-Profit Membership</h3>
+                <button id="openButton3">More Information</button>
+            </div>
+        </div>
+
+        <dialog id="dialogBox">
+            <div></div>
+            <button id="closeButton">Close</button>
+        </dialog>
 
     </main>
     <footer>
