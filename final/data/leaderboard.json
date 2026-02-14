@@ -1,4 +1,4 @@
-export const  leaderboard = [
+[
     {
         "rank": 1,
         "player": "ShadowVex",
@@ -135,4 +135,3 @@ export const  leaderboard = [
         "img": "https://api.dicebear.com/7.x/bottts/svg?seed=QuickShot"
     }
 ]
-

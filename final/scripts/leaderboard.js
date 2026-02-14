@@ -1,9 +1,9 @@
-import { leaderboard } from '../data/leaderboard.mjs';
+let leaderboardData = []; 
 
 const showHere = document.querySelector("#leaderboard");
 
 function displayItems(players) {
-    showHere.innerHTML = ""; 
+    showHere.innerHTML = "";
 
     players.forEach(place => {
         const row = document.createElement("div");
@@ -54,11 +54,20 @@ function displayItems(players) {
     });
 }
 
+async function loadLeaderboard() {
+    try {
+        const response = await fetch("data/leaderboard.json");
+        leaderboardData = await response.json();
+        displayItems(leaderboardData);
+    } catch (error) {
+        console.error("Error loading leaderboard:", error);
+    }
+}
 
-displayItems(leaderboard);
+loadLeaderboard();
 
 window.filterLeaderboard = function (filterBy) {
-    let filtered = [...leaderboard];
+    let filtered = [...leaderboardData];
 
     switch (filterBy) {
         case "time":
