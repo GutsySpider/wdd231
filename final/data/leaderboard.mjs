@@ -1,0 +1,138 @@
+export const  leaderboard = [
+    {
+        "rank": 1,
+        "player": "ShadowVex",
+        "time_played": "1245 hrs",
+        "kills": 18920,
+        "kd_ratio": 4.7,
+        "platform": "PC",
+        "img": "https://api.dicebear.com/7.x/bottts/svg?seed=ShadowVex"
+    },
+    {
+        "rank": 2,
+        "player": "RiftRunner",
+        "time_played": "1110 hrs",
+        "kills": 16405,
+        "kd_ratio": 4.1,
+        "platform": "Xbox",
+        "img": "https://api.dicebear.com/7.x/bottts/svg?seed=RiftRunner"
+    },
+    {
+        "rank": 3,
+        "player": "NovaStrike",
+        "time_played": "980 hrs",
+        "kills": 14880,
+        "kd_ratio": 3.9,
+        "platform": "PlayStation",
+        "img": "https://api.dicebear.com/7.x/bottts/svg?seed=NovaStrike"
+    },
+    {
+        "rank": 4,
+        "player": "FrostByte",
+        "time_played": "1020 hrs",
+        "kills": 13210,
+        "kd_ratio": 3.4,
+        "platform": "PC",
+        "img": "https://api.dicebear.com/7.x/bottts/svg?seed=FrostByte"
+    },
+    {
+        "rank": 5,
+        "player": "LunarEcho",
+        "time_played": "875 hrs",
+        "kills": 12540,
+        "kd_ratio": 3.1,
+        "platform": "Switch",
+        "img": "https://api.dicebear.com/7.x/bottts/svg?seed=LunarEcho"
+    },
+    {
+        "rank": 6,
+        "player": "ApexGhost",
+        "time_played": "940 hrs",
+        "kills": 11980,
+        "kd_ratio": 2.9,
+        "platform": "PC",
+        "img": "https://api.dicebear.com/7.x/bottts/svg?seed=ApexGhost"
+    },
+    {
+        "rank": 7,
+        "player": "EmberWolf",
+        "time_played": "760 hrs",
+        "kills": 10420,
+        "kd_ratio": 2.7,
+        "platform": "PlayStation",
+        "img": "https://api.dicebear.com/7.x/bottts/svg?seed=EmberWolf"
+    },
+    {
+        "rank": 8,
+        "player": "TitanRush",
+        "time_played": "690 hrs",
+        "kills": 9870,
+        "kd_ratio": 2.5,
+        "platform": "Xbox",
+        "img": "https://api.dicebear.com/7.x/bottts/svg?seed=TitanRush"
+    },
+    {
+        "rank": 9,
+        "player": "SolarFlare",
+        "time_played": "720 hrs",
+        "kills": 9110,
+        "kd_ratio": 2.3,
+        "platform": "PC",
+        "img": "https://api.dicebear.com/7.x/bottts/svg?seed=SolarFlare"
+    },
+    {
+        "rank": 10,
+        "player": "MysticPulse",
+        "time_played": "640 hrs",
+        "kills": 8540,
+        "kd_ratio": 2.1,
+        "platform": "PlayStation",
+        "img": "https://api.dicebear.com/7.x/bottts/svg?seed=MysticPulse"
+    },
+    {
+        "rank": 11,
+        "player": "IronClaw",
+        "time_played": "580 hrs",
+        "kills": 7980,
+        "kd_ratio": 1.9,
+        "platform": "Xbox",
+        "img": "https://api.dicebear.com/7.x/bottts/svg?seed=IronClaw"
+    },
+    {
+        "rank": 12,
+        "player": "DriftKing",
+        "time_played": "610 hrs",
+        "kills": 7420,
+        "kd_ratio": 1.8,
+        "platform": "PC",
+        "img": "https://api.dicebear.com/7.x/bottts/svg?seed=DriftKing"
+    },
+    {
+        "rank": 13,
+        "player": "NeonBlade",
+        "time_played": "540 hrs",
+        "kills": 6880,
+        "kd_ratio": 1.7,
+        "platform": "Switch",
+        "img": "https://api.dicebear.com/7.x/bottts/svg?seed=NeonBlade"
+    },
+    {
+        "rank": 14,
+        "player": "StormRider",
+        "time_played": "500 hrs",
+        "kills": 6310,
+        "kd_ratio": 1.6,
+        "platform": "PlayStation",
+        "img": "https://api.dicebear.com/7.x/bottts/svg?seed=StormRider"
+    },
+    {
+        "rank": 15,
+        "player": "QuickShot",
+        "time_played": "455 hrs",
+        "kills": 5940,
+        "kd_ratio": 1.5,
+        "platform": "Xbox",
+        "img": "https://api.dicebear.com/7.x/bottts/svg?seed=QuickShot"
+    }
+]
+
