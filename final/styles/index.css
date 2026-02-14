@@ -256,3 +256,7 @@ footer {
 .gameCard img {
     width: 100%;
 }
+
+#otherContainer{
+    display: none;
+}
