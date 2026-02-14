@@ -145,11 +145,21 @@ h2 {
 }
 
 footer {
-    display: flex;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
     gap: 1rem;
     margin: 1rem 0;
     padding: 1rem;
     border-top: solid 3px #ddd;
+}
+
+footer .attributions {
+    grid-column: 1 / -1;
+    text-align: center;
+}
+
+footer a {
+    color: lime;
 }
 
 .socialmedia a {

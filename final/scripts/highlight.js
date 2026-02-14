@@ -20,7 +20,7 @@ openButton2.addEventListener("click", () => {
         <p> 562 subscribers </p>
         <p> Filmed: February 8, 2025 </p>
         <p> Game: Fortnite </p>
-        <button class="streamButton" data-url="https://www.youtube.com/watch?v=0DvE6w0jIqA">Stream</button>
+        <button class="streamButton" data-url="https://www.youtube.com/@fortnite_hi_lights">Stream</button>
     `;
 });
 
